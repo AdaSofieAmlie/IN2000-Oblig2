@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/partiFarge"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:background="@color/black"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/partiNavn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/partiLederBilde"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@color/black"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/partiLederNavn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/antallStemmer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">adasam_oblig2</string>
+
+    <string-array name="valgDistriketer">
+        <item>Valgdistrikt 1</item>
+        <item>Valgdistrikt 2</item>
+        <item>Valgdistrikt 3</item>
+    </string-array>
+
+</resources>
